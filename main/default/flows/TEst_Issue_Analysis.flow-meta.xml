@@ -84,6 +84,13 @@
                 <stringValue>Flow</stringValue>
             </value>
         </filters>
+        <filters>
+            <field>pharos__Functional_Area__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>pharos__Issue__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -97,6 +104,13 @@
         <filterLogic>and</filterLogic>
         <filters>
             <field>pharos__Category__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>pharos__Functional_Area__c</field>
             <operator>EqualTo</operator>
             <value>
                 <stringValue>Flow</stringValue>
